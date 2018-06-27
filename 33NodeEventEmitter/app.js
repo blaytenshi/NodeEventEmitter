@@ -13,3 +13,4 @@ emtr.on(eventConfig.GREET, function() {
 
 console.log('Hello!');
 emtr.emit('greet');
+

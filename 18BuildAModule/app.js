@@ -1,0 +1,2 @@
+// the ./ means its in the same folder, you don't have to put .js after it because node will assume it's a js file extension
+require('./greet'); // the require function will import the greet code and run!

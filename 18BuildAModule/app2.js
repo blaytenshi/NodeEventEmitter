@@ -1,0 +1,2 @@
+require('./greet2'); // even though the greet2.js will be imported, nothing will show here because the code in greet2.js is just a function
+greet(); // this also won't work because of scoping! there is no 'greet' function in this file!
