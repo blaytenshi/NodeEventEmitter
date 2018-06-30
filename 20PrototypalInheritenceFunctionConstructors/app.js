@@ -63,7 +63,7 @@ mary.bye();
 // Can see the prototype object with the V8 javascript engine by looking at the __proto__ property, we can see what's in the prototype object
 console.log(john.__proto__); // will print "Person { greet: [Function] }"
 console.log(mary.__proto__);
-h
+
 // Can see they're pointing to the same prototype object:
 console.log("Are the prototype objects for john and mary objects the same? ", john.__proto__ === mary.__proto__ ? "Yes" : "No");
 
