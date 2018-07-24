@@ -4,8 +4,9 @@
 // There are two ways to instantiate a Buffer object.
 // First is to give it the actual data to hold plus the optional encoding.
 var buf = new Buffer('Hello', 'utf8'); // utf8 is the default if not specified. Shown here for clarity.
-// Second is to give it the a size
+// Second is to give it the a size in bytes (cannot be empty)
 var sizeBuffer = new Buffer(8);
+console.log(sizeBuffer);
 
 console.log(buf); // This will print out <Buffer 48 65  6c 6f>. THe values after the buffer is a hex representation of the 'Hello' (Still in UTF8 encoding)
 console.log(buf.toString()); // This will print out the contents of the Buffer by applying the encoding format to decode the data
